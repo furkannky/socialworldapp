@@ -130,7 +130,7 @@ class ProfilSayfasi extends StatelessWidget {
               ],
             ),
           ),
-            GonderiKarti(
+            const GonderiKarti(
             isimSoyad: "Selda Mert",
             gecenSure: "2 ay önce",
             aciklama: "Manzaraya hayran kaldım",

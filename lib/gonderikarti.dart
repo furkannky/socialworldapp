@@ -24,7 +24,7 @@ class GonderiKarti extends StatelessWidget {
         elevation: 1.0,
         borderRadius: BorderRadius.circular(12.0),
         child: Container(
-          padding: EdgeInsets.all(15.0),
+          padding: const EdgeInsets.all(15.0),
           width: double.infinity,
           height: 388.0,
           decoration: BoxDecoration(
@@ -47,7 +47,7 @@ class GonderiKarti extends StatelessWidget {
                                 image: NetworkImage(profilResimLinki!),
                                 fit: BoxFit.cover)),
                       ),
-                      SizedBox(
+                      const SizedBox(
                         width: 12.0,
                       ),
                       Column(
@@ -55,7 +55,7 @@ class GonderiKarti extends StatelessWidget {
                         children: <Widget>[
                           Text(
                             isimSoyad!,
-                            style: TextStyle(
+                            style: const TextStyle(
                               fontSize: 15.0,
                               fontWeight: FontWeight.bold,
                               color: Colors.black,
@@ -63,7 +63,7 @@ class GonderiKarti extends StatelessWidget {
                           ),
                           Text(
                             gecenSure!,
-                            style: TextStyle(
+                            style: const TextStyle(
                                 fontSize: 12.0,
                                 fontWeight: FontWeight.bold,
                                 color: Colors.grey),
@@ -72,18 +72,18 @@ class GonderiKarti extends StatelessWidget {
                       ),
                     ],
                   ),
-                  Icon(Icons.more_vert)
+                  const Icon(Icons.more_vert)
                 ],
               ),
-              SizedBox(
+              const SizedBox(
                 height: 15.0,
               ),
               Text(aciklama!,
-                  style: TextStyle(
+                  style: const TextStyle(
                     fontSize: 18.0,
                     color: Colors.grey,
                   )),
-              SizedBox(
+              const SizedBox(
                 height: 20.0,
               ),
               Image.network(
@@ -92,7 +92,7 @@ class GonderiKarti extends StatelessWidget {
                 height: 200.0,
                 fit: BoxFit.cover,
               ),
-              SizedBox(
+              const SizedBox(
                 height: 4.0,
               ),
               Row(
@@ -141,7 +141,7 @@ class IkonluButonum extends StatelessWidget {
   final String? yazi;
   final fonksiyonum;
 
-  IkonluButonum({this.ikonum, this.yazi, this.fonksiyonum});
+   IkonluButonum({this.ikonum, this.yazi, this.fonksiyonum});
 
   @override
   Widget build(BuildContext context) {
@@ -150,18 +150,18 @@ class IkonluButonum extends StatelessWidget {
       child: InkWell(
         onTap: fonksiyonum,
         child: Container(
-          padding: EdgeInsets.all(8.0),
+          padding: const EdgeInsets.all(8.0),
           child: Row(
             children: <Widget>[
               Icon(
                 ikonum,
                 color: Colors.grey,
               ),
-              SizedBox(
+              const SizedBox(
                 width: 8.0,
               ),
               Text(yazi!,
-                  style: TextStyle(
+                  style: const TextStyle(
                     fontWeight: FontWeight.bold,
                     color: Colors.grey,
                   ))
