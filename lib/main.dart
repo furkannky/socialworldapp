@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:sociaworld/bnb.dart';
 import 'package:sociaworld/gonderikarti.dart';
+import 'package:sociaworld/profil_page.dart';
 import 'package:sociaworld/profilsayfasi.dart';
 
 void main() => runApp(MyApp());
@@ -13,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.green,
       ),
-      home: AnaSayfa(),
+      home: HomePage(),
     );
   }
 }
