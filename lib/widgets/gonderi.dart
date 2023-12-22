@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+/* import 'package:flutter/material.dart';
 
 class Gonderiler extends StatefulWidget {
   const Gonderiler({Key? key}) : super(key: key);
@@ -38,3 +38,4 @@ class _GonderilerState extends State<Gonderiler> {
     );
   }
 }
+ */

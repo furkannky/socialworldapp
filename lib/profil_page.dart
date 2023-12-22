@@ -187,7 +187,7 @@ class _ProfilpageState extends State<Profilpage> {
                 ),
               ]),
             ),
-          Gonderiler(),
+          //Gonderiler(),
           ],
         ),
         ]
