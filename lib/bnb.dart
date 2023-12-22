@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:sociaworld/main.dart';
 import 'package:sociaworld/profil_page.dart';
+import 'package:sociaworld/search_page.dart';
+
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -14,6 +16,7 @@ class _HomePageState extends State<HomePage> {
 
   List pages = [
     AnaSayfa(),
+    SearchPage(),
     Profilpage(),
   ];
 
@@ -28,14 +31,14 @@ class _HomePageState extends State<HomePage> {
             icon: Icon(Icons.home),
             label: 'anasayfa',
           ),
+           BottomNavigationBarItem(
+            icon: Icon(Icons.search),
+            label: 'arama',
+          ), 
           BottomNavigationBarItem(
             icon: Icon(Icons.person),
             label: 'profil',
           ),
-        /*   BottomNavigationBarItem(
-            icon: Icon(Icons.search),
-            label: 'arama',
-          ), */
         ],
         currentIndex: _selectedIndex,
         onTap: (int index) {
