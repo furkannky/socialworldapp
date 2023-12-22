@@ -113,7 +113,7 @@ class GonderiKarti extends StatelessWidget {
                     },
                   ),
                    IkonluButonum(
-                    ikonum: Icons.comment,
+                    ikonum: Icons.share,
                     yazi: "paylaş",
                     fonksiyonum: () {
                       print("paylaş");

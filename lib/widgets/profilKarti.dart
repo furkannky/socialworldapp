@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sociaworld/profilsayfasi.dart';
+import 'package:sociaworld/pages/profilsayfasi.dart';
 
 class ProfilKarti extends StatefulWidget {
   final String resimLinki;

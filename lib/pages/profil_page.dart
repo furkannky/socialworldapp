@@ -57,7 +57,7 @@ class _ProfilpageState extends State<Profilpage> {
                     radius: 60,
                     backgroundImage: AssetImage("assets/img/x.jpeg"),
                   ),
-                  _buildStatColumn("12", "Gönderi"),
+                  _buildStatColumn("9", "Gönderi"),
                   _buildStatColumn("136", "Takipçi"),
                   _buildStatColumn("169", "Takip"),
                 ],

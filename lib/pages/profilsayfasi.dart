@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sociaworld/gonderikarti.dart';
+import 'package:sociaworld/widgets/gonderikarti.dart';
 
 class ProfilSayfasi extends StatelessWidget {
   final String? isimSoyad;

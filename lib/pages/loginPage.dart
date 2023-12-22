@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:sociaworld/main.dart';
+import 'package:sociaworld/pages/home_page.dart';
 
 class MyApp extends StatelessWidget {
   @override
@@ -25,7 +26,8 @@ class _LoginPageState extends State<LoginPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromARGB(255, 88, 123, 141),
+      backgroundColor: Colors.white,
+     // backgroundColor: Color.fromARGB(255, 88, 123, 141),
       /*   appBar: AppBar(
         backgroundColor: Colors.blueGrey,
         title: Text("Kullanıcı Girişi"),
@@ -36,10 +38,17 @@ class _LoginPageState extends State<LoginPage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Text("socia world", 
+              style: TextStyle(fontSize: 50, 
+              fontFamily: "assets/fonts/font"),
+            ),
+            ),
             const Padding(
               padding: EdgeInsets.only(bottom: 25),
               child: Text(
-                "Kullanıcı Girişi",
+                "Giriş yap veya kayıt ol",
               ),
             ),
             Icon(Icons.person_outline, size: 120, color: Colors.black),
@@ -81,25 +90,54 @@ class _LoginPageState extends State<LoginPage> {
               ),
             ),
             SizedBox(height: 20),
-            ElevatedButton(
-              style: ButtonStyle(
-                  shape: MaterialStateProperty.all<RoundedRectangleBorder>(
-                      RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(18.0),
-                  )),
-                  padding: MaterialStateProperty.all(
-                      const EdgeInsets.only(left: 75, right: 75)),
-                  backgroundColor: MaterialStateProperty.all(Colors.blueGrey)),
-              onPressed: () {
-                _girisKontrol();
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => AnaSayfa()));
-              },
-              child: Text(
-                "Giriş Yap",
-                style: TextStyle(color: Colors.white),
-              ),
-            ),
+            
+               Row(
+                 children: [
+                  Expanded(
+                    child: ElevatedButton(
+                                  style: ButtonStyle(
+                    shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+                        RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(18.0),
+                    )),
+                    padding: MaterialStateProperty.all(
+                        const EdgeInsets.only(left: 20, right: 20)),
+                    backgroundColor: MaterialStateProperty.all(Colors.blueGrey)),
+                                  onPressed: () {
+                                    _girisKontrol();
+                                    Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => AnaSayfa()));
+                                  },
+                                  child: Text(
+                                    "Giriş Yap",
+                                    style: TextStyle(color: Colors.black),
+                                  ),
+                                ),
+                  ),
+                  SizedBox(width: 5,),
+                   Expanded(
+                     child: ElevatedButton(
+                                   style: ButtonStyle(
+                        shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+                            RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(18.0),
+                        )),
+                        padding: MaterialStateProperty.all(
+                            const EdgeInsets.only(left: 25, right: 25)),
+                        backgroundColor: MaterialStateProperty.all(Colors.blueGrey)),
+                                   onPressed: () {
+                      _girisKontrol();
+                      Navigator.push(context,
+                          MaterialPageRoute(builder: (context) => AnaSayfa()));
+                                   },
+                                   child: Text(
+                      "Misafir Girişi ",
+                      style: TextStyle(color: Colors.black),
+                                   ),
+                                 ),
+                   ),
+                 ],
+               ),
           ],
         ),
       ),

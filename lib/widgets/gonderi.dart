@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 
 class Gonderiler extends StatelessWidget {
   final List<String> imageUrls = [
-    "https://cdn.pixabay.com/photo/2016/11/23/00/33/man-1851469_640.jpg",
+    "https://cdn.pixabay.com/photo/2014/09/17/11/47/man-449413_640.jpg",
     "https://cdn.pixabay.com/photo/2015/04/23/21/59/tree-736875_1280.jpg",
     "https://cdn.pixabay.com/photo/2014/12/15/16/57/tree-569275_1280.jpg",
     "https://cdn.pixabay.com/photo/2017/12/22/11/09/schilthorn-3033448_640.jpg",
     "https://cdn.pixabay.com/photo/2019/09/02/09/52/lake-4446923_640.jpg",
     "https://cdn.pixabay.com/photo/2018/10/19/12/14/train-3758523_640.jpg",
     "https://cdn.pixabay.com/photo/2015/01/07/11/31/tigers-591359_640.jpg",
-     "https://cdn.pixabay.com/photo/2016/11/23/00/33/man-1851469_640.jpg",
+     "https://cdn.pixabay.com/photo/2022/12/24/21/14/portrait-7676482_1280.jpg",
     "https://cdn.pixabay.com/photo/2015/04/23/21/59/tree-736875_1280.jpg",
     
   ];
