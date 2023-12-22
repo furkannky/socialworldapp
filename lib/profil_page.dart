@@ -90,7 +90,7 @@ class _ProfilpageState extends State<Profilpage> {
             Row(
               children: [
                 Padding(
-                  padding: const EdgeInsets.only(left: 25),
+                  padding: const EdgeInsets.only(left: 15),
                   child: ElevatedButton(
                       onPressed: () {},
                       child: Text(
@@ -104,7 +104,7 @@ class _ProfilpageState extends State<Profilpage> {
                       )),
                 ),
                 Padding(
-                  padding: const EdgeInsets.only(left: 25),
+                  padding: const EdgeInsets.only(left: 15),
                   child: ElevatedButton(
                       onPressed: () {},
                       child: Text(
@@ -118,7 +118,7 @@ class _ProfilpageState extends State<Profilpage> {
                       )),
                 ),
                 Padding(
-                  padding: const EdgeInsets.only(left: 25),
+                  padding: const EdgeInsets.only(left: 15),
                   child: ElevatedButton(
                     onPressed: () {},
                     child: Icon(
@@ -187,7 +187,7 @@ class _ProfilpageState extends State<Profilpage> {
                 ),
               ]),
             ),
-          //Gonderiler(),
+          Gonderiler(),
           ],
         ),
         ]
