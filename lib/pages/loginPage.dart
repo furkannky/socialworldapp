@@ -38,9 +38,9 @@ class _LoginPageState extends State<LoginPage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: Text("socia world", 
+            const Padding(
+              padding: EdgeInsets.all(8.0),
+              child: Text("social world", 
               style: TextStyle(fontSize: 50, 
               fontFamily: "assets/fonts/font"),
             ),

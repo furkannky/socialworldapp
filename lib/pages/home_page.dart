@@ -23,7 +23,7 @@ class _AnaSayfaState extends State<AnaSayfa> {
               ),
               onPressed: () {}),
           title: const Text(
-            "Sociaworld",
+            "Social world",
             style: TextStyle(fontSize: 20.0, color: Colors.grey),
           ),
           centerTitle: true,
@@ -89,7 +89,7 @@ class _AnaSayfaState extends State<AnaSayfa> {
                       "Yıldız",
                       "https://cdn.pixabay.com/photo/2017/03/02/20/25/woman-2112292_960_720.jpg",
                       "Yıldız Mars",
-                      "https://cdn.pixabay.com/photo/2015/03/26/09/47/sky-690293_960_720.jpg"),
+                      "https://cdn.pixabay.com/photo/2023/12/08/07/27/woman-8437007_640.jpg"),
                   profilKartiOlustur(
                       "Nadir",
                       "https://cdn.pixabay.com/photo/2016/11/18/19/07/happy-1836445_960_720.jpg",
@@ -102,13 +102,22 @@ class _AnaSayfaState extends State<AnaSayfa> {
               height: 10.0,
             ),
             const GonderiKarti(
+              isimSoyad: "celal şengör ",
+              gecenSure: "1 saat önce  ",
+              aciklama: "Bu muazzaam bir kitap",
+              profilResimLinki:
+                  "https://www.yapikrediyayinlari.com.tr/dosyalar/2017/03/28c9cb8d-686d-407d-a906-815c6a214ef2-1.jpg",
+              gonderiResimLinki:
+                  "https://cdn.pixabay.com/photo/2015/12/15/18/46/books-1094743_640.jpg",
+            ),
+            const GonderiKarti(
               isimSoyad: "Hakan Yaldız",
               gecenSure: "1 sene önce",
               aciklama: "Geçen yaz çekildim",
               profilResimLinki:
                   "https://cdn.pixabay.com/photo/2015/03/03/20/42/man-657869_960_720.jpg",
               gonderiResimLinki:
-                  "https://cdn.pixabay.com/photo/2019/08/07/14/11/dog-4390885_960_720.jpg",
+                  "https://media.istockphoto.com/id/537548268/tr/foto%C4%9Fraf/handsome-man-wearing-white-clothes-posing-in-sea-scenery.jpg?s=612x612&w=0&k=20&c=irkjUKB0h2ectu3rt3Q4vZI5ckP__XcTW2PxyxYYfJs=",
             ),
             const GonderiKarti(
               isimSoyad: "Selda Mert",
@@ -117,8 +126,19 @@ class _AnaSayfaState extends State<AnaSayfa> {
               profilResimLinki:
                   "https://cdn.pixabay.com/photo/2019/11/03/05/36/portrait-4597853_960_720.jpg",
               gonderiResimLinki:
-                  "https://cdn.pixabay.com/photo/2016/05/05/02/37/sunset-1373171_960_720.jpg",
+                  "https://cdn.pixabay.com/photo/2017/05/09/03/46/alberta-2297204_640.jpg",
             ),
+            const GonderiKarti(
+              isimSoyad: "ebru poyraz",
+              gecenSure: "1 hafta önce",
+              aciklama: ":)",
+              profilResimLinki:
+                  "https://cdn.pixabay.com/photo/2019/10/15/15/35/love-4552087_640.jpg",
+              gonderiResimLinki:
+                  "https://cdn.pixabay.com/photo/2014/07/10/17/18/battleship-389274_640.jpg",
+            ),
+            
+
           ],
         ),
         floatingActionButton: FloatingActionButton(
